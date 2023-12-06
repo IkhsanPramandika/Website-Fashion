@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="font.css">
+
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="HALAMAN 5.html" class="w3-button w3-block w3-black">Previous</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="HALAMAN 7.html" class="w3-button w3-block w3-black">Halaman7</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="HALAMAN 8.html" class="w3-button w3-block w3-black">Halaman8</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="HALAMAN 9.html" class="w3-button w3-block w3-black">Halaman9</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="video-container">
+    <style type="text/css">
+    .video-container  {
+    
+      background-size: cover;
+         background-position: center;
+         text-align: center;
+         height: 100%;
+    
+    }
+    </style>   
+    <video autoplay="" loop="" muted >
+      <source src="sehunv2.mp4" type="video/mp4" />
+    </video>
+  </div>
+  
+
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:140px"><br></span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+  <!-- About Container -->
+  <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">DIOR</span></h5>
+      <p>Sehun wears Dior Spring </p>
+      <p></p>
+      <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><i>Stepping out of a carriage wearing the new knitted version of the iconic Bar jacket and J’Adior pumps from Spring by Maria Grazia Chiuri</i></p>
+        <p>"Dior Spring 2022 Collection with Sehun"</p>
+      </div>
+      
+     
+      <p><strong>DIOR PARIS</strong> </p>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Menu Container -->
+  <div class="w3-container" id="menu">
+    <div class="w3-content" style="max-width:700px">
+   
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OUTFIT</span></h5>
+    
+      <div class="w3-row w3-center w3-card w3-padding">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+          <div class="w3-col s6 tablink">Product detail</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+          <div class="w3-col s6 tablink">Quality Assurance</div>
+        </a>
+      </div>
+  
+      <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+        <h5>TYPE</h5>
+        <p class="w3-text-grey">Handbag</p><br>
+      
+        <h5>MATERIAL</h5>
+        <p class="w3-text-grey">Box Calfskin</p><br>
+      
+        <h5> COLOR</h5>
+        <p class="w3-text-grey">Grey</p><br>
+      
+        <h5>SIZE</h5>
+        <p class="w3-text-grey">21 x 12 x 5.1 cm / 8.5 x 4.5 x 2 inches</p><br>
+      
+        <h5>PRICE</h5>
+        <p class="w3-text-grey">$4,600 – $5,900</p>
+      </div>
+  
+      <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+        <h5>IF THE PRODUCT IS DEFECTIVE</h5>
+        <p class="w3-text-grey">It will be repaired free of charge within 6 months (Quality Guarantee Period) from the date of sale.</p><br>
+      
+        <h5>WE ARE NOT RESPONSIBLE FOR COMPENSATION FOR PRODDUCT DAMAGE </h5>
+        <p class="w3-text-grey">Caused by consumer carelessness, modifications caused by washing mistakes, or abnormal quality of products that have passed six months.</p><br>
+      
+        <h5>QUALITY ASSURACE STANDARDS</h5>
+        <p class="w3-text-grey">accordance with relevant laws and consumer dispute settlement regulations.</p><br>
+      
+        <h5></h5>
+        <p class="w3-text-grey"></p><br>
+      
+        <h5></h5>
+        <p class="w3-text-grey"></p>
+      </div>  
+      <img src="SEHUN.jfif" style="width:100%;max-width:1000px;margin-top:32px;">
+    </div>
+  </div>
+    
+
+
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
